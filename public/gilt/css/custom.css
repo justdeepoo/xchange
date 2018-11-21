@@ -1,0 +1,46 @@
+.error-txt {
+    padding: 10px 0px;
+    color: red;
+    font-size: 12px;
+}
+.success-txt {
+    padding: 10px 0px;
+    color: green;
+    font-size: 12px;
+}
+.input-error{
+	color: red;
+	font-size:12px;
+}
+.forgot-messgage {
+    text-align: center;
+    font-size: 13px;
+    
+}
+div#deposit {
+    text-align: center;
+}
+div#withdraw {
+    text-align: center;
+}
+#qr-img {
+    width: 171px;
+}
+.login-form .form-group {
+    text-align: left;
+}
+select#country {
+    width: 310px;
+}
+.input-group.image-preview img {
+    width: 312px;
+}
+.input-group.image-preview1 img {
+    width: 312px;
+}
+.yellow-color{
+    color:blue;
+}
+.buy-response-msg, .sell-response-msg{
+    text-align: center;
+}

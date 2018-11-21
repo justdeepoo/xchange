@@ -1,0 +1,19 @@
+<html>
+<head>
+    <title>Team Giltxchange</title>
+    <style type="text/css">
+        .pad50{padding-left:50px;text-align: left}
+        .pad25{padding-left:25px;}
+    </style>
+</head>
+<body>
+Dear <?php echo e($first_name); ?>,
+<br/><br/>
+Congratulations! You have successfully subscribe with us, we will send you update shortly.
+<br/>
+<br/>
+<br/><br/><br/><br/><br/><br/>
+
+Regards, Team Giltxchange
+</body>
+</html>

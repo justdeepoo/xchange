@@ -1,0 +1,14 @@
+ /* For mobile phones: */
+@media only screen and (max-width: 768px) {
+	.logo-menu{position:static!important;}
+	.header-menu ul.navbar-nav li{border:0!important;}
+	.header-menu.navbar-dark .navbar-nav .nav-link{padding: 0 0 1rem 0;}
+	.header-menu.navbar-dark .navbar-toggler{border:0!important;}
+	.header-margin{margin:0;}
+	.section5 ul.nav-tabs li{width:auto; margin:0 3px 3px 0;}
+	.tab-content{width:100%;}
+	.headerform-main .header-content{width:100%;}
+	.headerform-main .header-form{width:100%; margin:3em 0 0 0;}
+	.login-form .login-footers{padding: 1em 0.5em;}
+	.section4 .viewsec4{margin:0 0 10px 0;}
+}

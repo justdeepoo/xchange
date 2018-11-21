@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <body>
+        
+            <script src="http://52.37.50.202:3000/socket.io/socket.io.js"></script>
+            <script>
+                var socket = io('http://52.37.50.202:3000');
+                socket.on('connect', function() {
+                    console.log("Welcome to our Live ICO Token Sale Page");
+                });
+                
+                socket.on('trade', function(response) {
+                    console.log(response);
+                });
+                socket.on('sell', function(response) {
+                    console.log(response);
+                });
+                socket.on('buy', function(response) {
+                    console.log(response);
+                });
+            </script>
+    </body>
+</html>
