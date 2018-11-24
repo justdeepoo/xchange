@@ -19,7 +19,7 @@ class Kernel extends HttpKernel
 	public function __construct(Application $app, Router $router)
 
     {
-       $app->useEnvironmentPath('/var/www/html/xchange/');// here you can customize the path.
+       $app->useEnvironmentPath('/var/www/env/xchange/');// here you can customize the path.
         parent::__construct($app, $router);
     }
 
