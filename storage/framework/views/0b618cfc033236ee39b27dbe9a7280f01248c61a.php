@@ -9,8 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Xchange - Home Page</title>
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png')}}"/>
+    <title>Koinone - Home Page</title>
+	<link rel="shortcut icon" type="image/png" href="<?php echo e(asset('/public/gilt/img/favicon.png')); ?>"/>
 	
 	<!-- Appple Touch Icons -->
 	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-57x57.png')}}"/>
@@ -52,7 +52,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue fixed-top header-menu">
       <div class="container">
-        <a class="navbar-brand" href="<?php echo e(url('/')); ?>"><img src="<?php echo e(asset('/public/gilt/img/logo.png')); ?>"/></a>
+        <a class="navbar-brand" href="<?php echo e(url('/')); ?>"><img width="100" src="<?php echo e(asset('/public/gilt/img/logo.png')); ?>"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -197,7 +197,7 @@
       <div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
-				<p>Copyright &copy; <span class="logo-yellow">Xchange</span> 2018 All Right Reserved.</p>
+				<p>Copyright &copy; <span class="logo-yellow">Koinone</span> 2018 All Right Reserved.</p>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<div class="footer-social">

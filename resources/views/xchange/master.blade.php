@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Xchange - Home Page</title>
+    <title>Koinone - Trade Page</title>
 	  <link rel="shortcut icon" type="image/png" href="{{asset('/public/gilt/img/favicon.png')}}"/>
 	
 	<!-- Appple Touch Icons -->
@@ -52,7 +52,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue fixed-top header-menu">
       <div class="container-fluid">
-        <a class="navbar-brand" href="{{url('/trade/eth-xrp')}}"><img src="{{asset('/public/gilt/img/logo.png')}}"/></a>
+        <a class="navbar-brand" href="{{url('/trade/eth-xrp')}}"><img width="100" src="{{asset('/public/gilt/img/logo.png')}}"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -181,16 +181,16 @@
       <div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6">
-				<p>Copyright &copy; <span class="logo-yellow">Xchange</span> 2018 All Right Reserved.</p>
+				<p>Copyright &copy; <span class="logo-yellow">Koinone</span> 2018 All Right Reserved.</p>
 			</div>
 			<div class="col-sm-12 col-md-6">
 				<div class="footer-social">
 					<ul>
-						<li><a href="https://www.facebook.com/Giltxchangeofficial" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="https://t.me/giltxchange" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-						<li><a href="https://twitter.com/giltxchange" target="_blank"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="https://www.linkedin.com/company/giltxchange/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-						<li><a href="https://medium.com/@giltxchange" target="_blank"><i class="fab fa-medium-m"></i></a></li>						
+						<li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-medium-m"></i></a></li>						
 					</ul>
 				</div>
 			</div>
